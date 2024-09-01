@@ -1,0 +1,24 @@
+22:49:11.605 [main] INFO  com.demo.user.UserApplication - Starting UserApplication using Java 17.0.9 with PID 3995484 (/data/2024/java/user/target/classes started by user in /data/2024/java/user)
+22:49:11.609 [main] INFO  com.demo.user.UserApplication - No active profile set, falling back to 1 default profile: "default"
+22:49:12.234 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+22:49:12.244 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+22:49:12.247 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:49:12.247 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+22:49:12.289 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:49:12.290 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 630 ms
+22:49:12.568 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+22:49:12.579 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+22:49:12.587 [main] INFO  com.demo.user.UserApplication - Started UserApplication in 1.223 seconds (process running for 1.572)
+22:49:17.821 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:49:17.822 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:49:17.824 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+22:49:17.854 [http-nio-8090-exec-2] INFO  com.demo.user.api.UserController - health api called info
+22:49:17.855 [http-nio-8090-exec-2] WARN  com.demo.user.api.UserController - health api called warn
+22:49:17.855 [http-nio-8090-exec-2] DEBUG com.demo.user.api.UserController - health api called debug
+22:49:17.855 [http-nio-8090-exec-2] TRACE com.demo.user.api.UserController - health api called trace
+22:49:17.855 [http-nio-8090-exec-2] ERROR com.demo.user.api.UserController - health api called error
+22:49:25.348 [http-nio-8090-exec-3] INFO  com.demo.user.api.UserController - health api called info
+22:49:25.349 [http-nio-8090-exec-3] WARN  com.demo.user.api.UserController - health api called warn
+22:49:25.349 [http-nio-8090-exec-3] DEBUG com.demo.user.api.UserController - health api called debug
+22:49:25.349 [http-nio-8090-exec-3] TRACE com.demo.user.api.UserController - health api called trace
+22:49:25.349 [http-nio-8090-exec-3] ERROR com.demo.user.api.UserController - health api called error
